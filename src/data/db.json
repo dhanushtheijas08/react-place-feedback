@@ -1,0 +1,56 @@
+{
+  "cities": [
+    {
+      "cityName": "At Tawisha",
+      "country": "Sudan (the)",
+      "emoji": "🇸🇩",
+      "date": "2023-09-21T06:58:27.271Z",
+      "notes": "",
+      "position": {
+        "lat": "12.040086469434742",
+        "lng": "26.235773788816154"
+      },
+      "owner": "s",
+      "id": 1
+    },
+    {
+      "cityName": "Dadaab",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2023-09-21T07:02:39.612Z",
+      "notes": "",
+      "position": {
+        "lat": "0.0062050242402219916",
+        "lng": "39.985257290310024"
+      },
+      "owner": "ram",
+      "id": 2
+    },
+    {
+      "cityName": "Fafi",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2023-09-21T07:02:52.559Z",
+      "notes": "",
+      "position": {
+        "lat": "-0.2319646658073336",
+        "lng": "40.52856878241921"
+      },
+      "owner": "ram",
+      "id": 3
+    },
+    {
+      "cityName": "East Zone",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-09-21T07:02:59.849Z",
+      "notes": "",
+      "position": {
+        "lat": "11.0142",
+        "lng": "76.9941"
+      },
+      "owner": "ram",
+      "id": 4
+    }
+  ]
+}

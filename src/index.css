@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"; */
+
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+
+  --color-dark--0: #242a2e;
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: #d6dee0;
+}
+
+::selection {
+  background-color: #6558f576;
+  color: #ffffffd1;
+}
+
+.leaflet-container {
+  height: 100vh;
+}
+.position {
+  font-weight: 600;
+  position: absolute;
+  font-size: 18px;
+  z-index: 1000;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+  max-width: fit-content;
+  padding: 5px 15px;
+}
