@@ -51,6 +51,32 @@
       },
       "owner": "ram",
       "id": 4
+    },
+    {
+      "cityName": "Coimbatore",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-09-22T06:54:32.734Z",
+      "notes": "",
+      "position": {
+        "lat": "11.102974804382507",
+        "lng": "76.9221552791371"
+      },
+      "owner": "aaa",
+      "id": 5
+    },
+    {
+      "cityName": "Wajir South",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2023-09-22T06:55:21.846Z",
+      "notes": "",
+      "position": {
+        "lat": "1.6738384612021924",
+        "lng": "40.14679917190451"
+      },
+      "owner": "ram",
+      "id": 6
     }
   ]
 }
