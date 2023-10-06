@@ -11,6 +11,7 @@ export default function Input({
 }) {
   return (
     <input
+      required
       type={type}
       className={`text-lg border-text-secondary-color rounded px-3 py-0.5 border-[1.75px] outline-2 ${
         isError

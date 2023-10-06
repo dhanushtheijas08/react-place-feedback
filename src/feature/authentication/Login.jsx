@@ -13,7 +13,6 @@ export default function Login() {
     login,
     state: { isAuthenticated, isCorrectUser, userData: allUserData },
   } = useAuthentication();
-  // console.log(allUserData);
   const handleInputChange = function (input) {
     const { name, value } = input.target;
     setUserData((prev) => ({

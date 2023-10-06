@@ -4,6 +4,7 @@ import { useAuthentication } from "../../contexts/Authentication";
 import { postUserData } from "../../hooks/postUserData";
 import { useNavigate } from "react-router";
 export default function JoinNow() {
+  const [isDuplicate, setIsDuplicate] = useState(false);
   const navigate = useNavigate();
   const {
     state: { userData: allUserData, isAuthenticated },
@@ -41,12 +42,14 @@ export default function JoinNow() {
   const handleCreateNewUser = async function () {
     if (!(userData && allUserData)) return;
     if (!isDuplicateUser(userData, allUserData)) {
+      setIsDuplicate(false);
       const res = await postUserData({
         userName: userData.userName,
         password: userData.password,
       });
       createUser(res);
     }
+    setIsDuplicate(true);
   };
   return (
     <div className="flex justify-center py-32">
@@ -57,6 +60,8 @@ export default function JoinNow() {
         <h2 className="text-center text-5xl md:text-7xl font-bold text-text-primary-color mb-10 ">
           Join Now
         </h2>
+
+        {isDuplicate && <p className="text-red-400  mb-3">Duplicate User</p>}
         <div className="flex flex-col gap-5 w-72 md:w-80">
           <Input
             placeholder="User Name"
