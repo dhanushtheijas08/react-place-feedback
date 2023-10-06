@@ -7,6 +7,7 @@
     "dev": "vite",
     "city-server": "json-server --watch src/data/db.json --port 9210",
     "user-server": "json-server --watch src/data/user.json --port 9212",
+    "server": "json-server --watch src/data/newDb.json --port 9215 --middlewares cors.js",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
