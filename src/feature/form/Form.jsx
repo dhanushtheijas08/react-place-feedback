@@ -17,7 +17,6 @@ function Form() {
   const {
     state: { currentUser },
   } = useAuthentication();
-  console.log(currentUser);
   const { postCityData, cityData } = useCityContext();
   const [lat, lng] = useUrlPosition();
   const [cityName, setCityName] = useState("");

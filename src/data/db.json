@@ -1,82 +1,69 @@
 {
   "cities": [
     {
-      "cityName": "At Tawisha",
-      "country": "Sudan (the)",
-      "emoji": "🇸🇩",
-      "date": "2023-09-21T06:58:27.271Z",
+      "cityName": "A Dakhla Oasis",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2023-10-06T13:56:28.014Z",
       "notes": "",
       "position": {
-        "lat": "12.040086469434742",
-        "lng": "26.235773788816154"
+        "lat": "23.082984691750397",
+        "lng": "26.63113663253821"
       },
-      "owner": "s",
+      "owner": "sample user",
       "id": 1
     },
     {
-      "cityName": "Dadaab",
-      "country": "Kenya",
-      "emoji": "🇰🇪",
-      "date": "2023-09-21T07:02:39.612Z",
+      "cityName": "Bina",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-10-06T13:56:34.611Z",
       "notes": "",
       "position": {
-        "lat": "0.0062050242402219916",
-        "lng": "39.985257290310024"
+        "lat": "24.39901693972074",
+        "lng": "78.2235053361373"
       },
-      "owner": "ram",
+      "owner": "sample user",
       "id": 2
     },
     {
-      "cityName": "Fafi",
-      "country": "Kenya",
-      "emoji": "🇰🇪",
-      "date": "2023-09-21T07:02:52.559Z",
+      "cityName": "Qagan Us",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2023-10-06T13:56:38.260Z",
       "notes": "",
       "position": {
-        "lat": "-0.2319646658073336",
-        "lng": "40.52856878241921"
+        "lat": "36.049139500881715",
+        "lng": "97.3834466324321"
       },
-      "owner": "ram",
+      "owner": "sample user",
       "id": 3
     },
     {
-      "cityName": "East Zone",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-09-21T07:02:59.849Z",
-      "notes": "",
+      "cityName": "Vezhayka",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-10-06T13:56:57.861Z",
+      "notes": "nice place",
       "position": {
-        "lat": "11.0142",
-        "lng": "76.9941"
+        "lat": "62.68433832028483",
+        "lng": "49.74727776400357"
       },
-      "owner": "ram",
+      "owner": "sample user",
       "id": 4
     },
     {
-      "cityName": "Coimbatore",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-09-22T06:54:32.734Z",
-      "notes": "",
+      "cityName": "Shalkar District",
+      "country": "Kazakhstan",
+      "emoji": "🇰🇿",
+      "date": "2023-10-06T13:57:58.492Z",
+      "notes": "nice place",
       "position": {
-        "lat": "11.102974804382507",
-        "lng": "76.9221552791371"
+        "lat": "48.81033309606108",
+        "lng": "59.50294504587193"
       },
-      "owner": "aaa",
+      "owner": "sample 2",
       "id": 5
-    },
-    {
-      "cityName": "Wajir South",
-      "country": "Kenya",
-      "emoji": "🇰🇪",
-      "date": "2023-09-22T06:55:21.846Z",
-      "notes": "",
-      "position": {
-        "lat": "1.6738384612021924",
-        "lng": "40.14679917190451"
-      },
-      "owner": "ram",
-      "id": 6
     }
   ]
 }
